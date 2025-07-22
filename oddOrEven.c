@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <stdbool.h>
 
 bool isEven(int n) {
@@ -10,7 +10,7 @@ bool isEven(int n) {
 int main(){
     int n = 15;
 
-    if (iEven(n))
+    if (isEven(n))
         printf("true\n");
     else 
         printf("false\n"); 
